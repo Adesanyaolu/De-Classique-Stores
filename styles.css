@@ -1,0 +1,100 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 180%;
+    color: #7777777;
+    text-align: center;
+}
+
+.parallax1{
+    background: url(images/image_1.jpg);
+    height: 100%;
+}
+.parallax2{
+    background: url(images/image_2.jpg);
+    height: 100%;
+}
+.parallax3{
+    background: url(images/image_3.jpg);
+    height: 100%;
+}
+.parallax4{
+    background: url(images/image_4.jpg);
+    height: 100%;
+    
+}
+header { 	border: solid;
+            padding: 10px 10px 10px 10px;
+            text-align: right;
+            color: white;
+            font-size: 20px;
+            }
+.list 	{	    display: grid;
+                grid-template-columns: 130px 130px 130px 130px;
+                align-items: end;
+                justify-content: end;
+                font-weight: bolder;
+                font-size: 100%vw;
+            }		
+
+.parallax1, .parallax2, .parallax3, .parallax4{
+    position: relative;
+    /* opacity: .70; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.heading{
+    position: absolute;
+    color: maroon;
+    top: 80%;
+    width: 100%;
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-shadow: 0 0 10px #000;
+    float:center;
+    font-weight: bolder;
+    
+}
+
+.heading-sm{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    width: 100%;
+    font-size: 6vw;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 0 12px #000;
+}
+
+
+section {
+    overflow: auto;
+    padding: 50px 70px;
+}
+.social-links a {
+    padding: 10px 10px;
+    font-size: 20px;
+    text-decoration: none;
+    position: relative;
+    padding-top: 350px;
+    font-size: 8vw;
+    color: maroon;
+    
+}
+.dark {
+    overflow: auto;
+    padding: 50px 70px;
+    background-color:#323232;
+    color: white;
+}
+footer {  
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    color:black
+        }   
