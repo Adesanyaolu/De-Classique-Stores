@@ -30,8 +30,8 @@ header { 	border: solid;
             color: white;
             font-size: 20px;
             }
-.list 	{	    display: grid;
-                grid-template-columns: 130px 130px 130px 130px;
+.list 	{	    display: flex;
+                flex-direction: row;
                 align-items: end;
                 justify-content: end;
                 font-weight: bolder;
@@ -72,19 +72,19 @@ header { 	border: solid;
     text-shadow: 0 0 12px #000;
 }
 
-
 section {
     overflow: auto;
     padding: 50px 70px;
 }
 .social-links a {
     padding: 10px 10px;
-    font-size: 20px;
+    font-size: 18px;
     text-decoration: none;
     position: relative;
     padding-top: 350px;
     font-size: 8vw;
     color: maroon;
+    font-weight: bolder;
     
 }
 .dark {
@@ -97,4 +97,31 @@ footer {
     text-align: center;
     padding: 10px 0px 10px 0px;
     color:black
-        }   
+        }  
+/*Media Querry for Desktop*/
+@media only screen and (min-width:1200px){
+    .social-links a {
+        padding: 10px 10px;
+        font-size: 18px;
+        text-decoration: none;
+        position: relative;
+        padding-top: 450px;
+        font-size: 8vw;
+        color: maroon;
+        font-weight: bolder;
+        
+    }
+}
+@media only screen and (min-width:760px){
+    .social-links a {
+        padding: 10px 10px;
+        font-size: 18px;
+        text-decoration: none;
+        position: relative;
+        padding-top: 350px;
+        font-size: 8vw;
+        color: maroon;
+        font-weight: bolder;
+        
+    }   
+    }
